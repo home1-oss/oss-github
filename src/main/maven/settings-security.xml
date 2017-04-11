@@ -1,0 +1,3 @@
+<settingsSecurity>
+ <master>${env.MAVEN_CENTRAL_MASTER_PASS}</master>
+</settingsSecurity>
