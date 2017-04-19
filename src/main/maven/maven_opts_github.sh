@@ -2,8 +2,8 @@
 
 #GIT_SERVICE_HOST in .travis.yml
 
-# TODO publish to docker-hub
-export DOCKER_REGISTRY=""
+
+export DOCKER_REGISTRY="home1oss"
 
 
 #export MAVEN_OPTS="${MAVEN_OPTS} -Dgithub-nexus.mirror=no mirror"
