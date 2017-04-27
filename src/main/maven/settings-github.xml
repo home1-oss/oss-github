@@ -20,7 +20,7 @@
     <servers>
         <server>
             <id>gpg.passphrase</id>
-            <passphrase>${build.gpg.passphrase}</passphrase>
+            <passphrase>${env.GPG_PASSPHRASE}</passphrase>
         </server>
         <server>
             <id>github-nexus-releases</id>
@@ -58,7 +58,8 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <properties>
-                <gpg.keyname>${build.gpg.keyname}</gpg.keyname>
+                <gpg.keyname>${env.GPG_KEYNAME}</gpg.keyname>
+                <gpg.passphrase>${env.GPG_PASSPHRASE}</gpg.passphrase>
             </properties>
         </profile>
         <profile>
