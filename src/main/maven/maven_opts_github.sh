@@ -4,7 +4,9 @@
 
 
 export DOCKER_REGISTRY="home1oss"
-
+# for nexus wagon distribute
+export NEXUS_SNAPSHOT_DISTRIBUTE_URL="https://oss.sonatype.org/content/repositories/snapshots"
+export NEXUS_RELEASE_DISTRIBUTE_URL="https://oss.sonatype.org/service/local/staging/deploy/maven2"
 
 #export MAVEN_OPTS="${MAVEN_OPTS} -Dgithub-nexus.mirror=no mirror"
 export MAVEN_OPTS="${MAVEN_OPTS} -Dgithub-nexus.repositories=https://oss.sonatype.org/content/repositories"
