@@ -12,9 +12,29 @@
     <offline/>
 
     <proxies>
+        <!--proxy>
+            <id>http-proxy</id>
+            <active>true</active>
+            <protocol>http</protocol>
+            <host>127.0.0.1</host>
+            <port>8080</port>
+        </proxy-->
     </proxies>
 
     <mirrors>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </mirrors>
 
     <servers>
@@ -43,7 +63,7 @@
     </servers>
 
     <activeProfiles>
-        <activeProfile>github-infrastructure</activeProfile>
+        <activeProfile>infrastructure-github</activeProfile>
     </activeProfiles>
 
     <pluginGroups>
@@ -64,7 +84,7 @@
             </properties>
         </profile>
         <profile>
-            <id>github-infrastructure</id>
+            <id>infrastructure-github</id>
             <properties>
                 <sonar.host.url>https://sonarqube.com</sonar.host.url>
             </properties>
