@@ -43,6 +43,10 @@
             <passphrase>${env.GPG_PASSPHRASE}</passphrase>
         </server>
         <server>
+            <id>github</id>
+            <password>${env.GITHUB_INFRASTRUCTURE_CONF_GIT_TOKEN}</password>
+        </server>
+        <server>
             <id>github-nexus-releases</id>
             <username>${env.MAVEN_CENTRAL_USER}</username>
             <password>${env.MAVEN_CENTRAL_PASS}</password>
