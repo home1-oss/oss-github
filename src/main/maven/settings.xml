@@ -47,12 +47,12 @@
             <password>${env.GITHUB_INFRASTRUCTURE_CONF_GIT_TOKEN}</password>
         </server>
         <server>
-            <id>github-nexus-releases</id>
+            <id>OSSRH-releases</id>
             <username>${env.MAVEN_CENTRAL_USER}</username>
             <password>${env.MAVEN_CENTRAL_PASS}</password>
         </server>
         <server>
-            <id>github-nexus-snapshots</id>
+            <id>OSSRH-snapshots</id>
             <username>${env.MAVEN_CENTRAL_USER}</username>
             <password>${env.MAVEN_CENTRAL_PASS}</password>
         </server>
@@ -103,14 +103,14 @@
                     </snapshots>
                 </repository>
                 <repository>
-                    <id>github-nexus-releases</id>
+                    <id>OSSRH-releases</id>
                     <name>central releases</name>
                     <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
                     <releases><enabled>true</enabled></releases>
                     <snapshots><enabled>false</enabled></snapshots>
                 </repository>
                 <repository>
-                    <id>github-nexus-snapshots</id>
+                    <id>OSSRH-snapshots</id>
                     <name>central snapshots</name>
                     <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
                     <releases><enabled>false</enabled></releases>
@@ -131,21 +131,21 @@
                     </releases>
                 </pluginRepository>
                 <pluginRepository>
-                    <id>github-nexus-releases</id>
+                    <id>OSSRH-releases</id>
                     <name>central releases</name>
                     <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
                     <releases><enabled>true</enabled></releases>
                     <snapshots><enabled>false</enabled></snapshots>
                 </pluginRepository>
                 <pluginRepository>
-                    <id>github-nexus-snapshots</id>
+                    <id>OSSRH-snapshots</id>
                     <name>central snapshots</name>
                     <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
                     <releases><enabled>false</enabled></releases>
                     <snapshots><enabled>true</enabled></snapshots>
                 </pluginRepository>
                 <pluginRepository>
-                    <id>github-nexus-thirdparty</id>
+                    <id>OSSRH-thirdparty</id>
                     <name>central thirdparty</name>
                     <url>https://oss.sonatype.org/content/repositories/third-party-releases/</url>
                     <releases><enabled>true</enabled></releases>
