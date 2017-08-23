@@ -98,9 +98,8 @@
                     <name>Central Repository</name>
                     <url>https://repo.maven.apache.org/maven2</url>
                     <layout>default</layout>
-                    <snapshots>
-                        <enabled>false</enabled>
-                    </snapshots>
+                    <releases><enabled>true</enabled></releases>
+                    <snapshots><enabled>false</enabled></snapshots>
                 </repository>
                 <repository>
                     <id>OSSRH-releases</id>
@@ -123,10 +122,9 @@
                     <name>Central Repository</name>
                     <url>https://repo.maven.apache.org/maven2</url>
                     <layout>default</layout>
-                    <snapshots>
-                        <enabled>false</enabled>
-                    </snapshots>
+                    <snapshots><enabled>false</enabled></snapshots>
                     <releases>
+                        <enabled>true</enabled>
                         <updatePolicy>never</updatePolicy>
                     </releases>
                 </pluginRepository>
