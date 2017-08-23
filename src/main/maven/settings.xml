@@ -22,19 +22,12 @@
     </proxies>
 
     <mirrors>
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <mirror>
+            <id>central-repo1</id>
+            <name>central-repo1</name>
+            <url>http://repo1.maven.org/maven2</url>
+            <mirrorOf>central</mirrorOf>
+        </mirror>
     </mirrors>
 
     <servers>
@@ -93,14 +86,6 @@
                 <sonar.host.url>https://sonarqube.com</sonar.host.url>
             </properties>
             <repositories>
-                <repository>
-                    <id>central</id>
-                    <name>Central Repository</name>
-                    <url>https://repo.maven.apache.org/maven2</url>
-                    <layout>default</layout>
-                    <releases><enabled>true</enabled></releases>
-                    <snapshots><enabled>false</enabled></snapshots>
-                </repository>
                 <repository>
                     <id>OSSRH-releases</id>
                     <name>central releases</name>
