@@ -103,13 +103,6 @@
             </repositories>
             <pluginRepositories>
                 <pluginRepository>
-                    <id>OSSRH-releases</id>
-                    <name>central releases</name>
-                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
-                    <releases><enabled>true</enabled></releases>
-                    <snapshots><enabled>false</enabled></snapshots>
-                </pluginRepository>
-                <pluginRepository>
                     <id>OSSRH-snapshots</id>
                     <name>central snapshots</name>
                     <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
