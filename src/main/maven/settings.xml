@@ -116,6 +116,18 @@
                     <releases><enabled>true</enabled></releases>
                     <snapshots><enabled>false</enabled></snapshots>
                 </pluginRepository>
+                <pluginRepository>
+                    <id>oss-github-maven-plugins</id>
+                    <url>https://raw.github.com/home1-oss/maven-plugins/mvn-repo</url>
+                    <name>Forked github-maven-plugins that upload faster</name>
+                    <layout>default</layout>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                    <releases>
+                        <enabled>true</enabled>
+                    </releases>
+                </pluginRepository>
             </pluginRepositories>
         </profile>
     </profiles>
